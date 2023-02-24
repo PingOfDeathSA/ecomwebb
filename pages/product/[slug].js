@@ -29,8 +29,8 @@ setShowCart(true)
         ))}
       </div>
     <div className='image-container '>
-  <div className='disabled-image'>
-    <img src={urlFor(image && image[index])} alt={name} className='product-image1' />
+  <div key={index} className='disabled-image'>
+    <img src={urlFor(image && image[index])}  alt={name} className='product-image1' />
 
   </div>
       
