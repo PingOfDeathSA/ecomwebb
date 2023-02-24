@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+     // other settings...
+  
+    "target": "ES2017",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "incremental": true
+  },
+  "types": [
+    "node",
+    "react",
+    "@types/sanity__vision"
+  ],
+  "include": ["**/*.ts", "**/*.tsx", "schemas/index.js", "sanity.cli.js"],
+  "exclude": ["node_modules"]
+}
